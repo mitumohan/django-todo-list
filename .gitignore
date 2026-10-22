@@ -1,0 +1,30 @@
+# Secrets - NEVER commit these (.env.example is safe and IS committed)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Virtual environments (recreate with: pip install -r requirements.txt)
+myvenv_todo/
+myvenv/
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local database (holds your own tasks and any admin user passwords)
+db.sqlite3
+db.sqlite3-journal
+
+# Logs and collected static files
+*.log
+staticfiles/
+
+# Editor / OS clutter
+.vscode/
+.idea/
+.DS_Store
